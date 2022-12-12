@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        maven 'maven-3.8.6'
+        maven 'MAVEN_HOME'
     }
     stages {
         stage ('Clone Code from Repository') {
