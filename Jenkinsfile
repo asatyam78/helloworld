@@ -11,7 +11,7 @@ pipeline {
         }
         stage ('Build') {
             steps {
-                echo 'Running Build phase...'  
+                echo 'Running Build phase....'  
                 echo 'java --version'
                 sh 'mvn clean package'
             }
