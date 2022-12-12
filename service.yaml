@@ -4,6 +4,7 @@ metadata:
   name: hello
 spec:
   type: LoadBalancer
+  #selector maps load balance to the service
   selector:
     app: hello
   ports:
